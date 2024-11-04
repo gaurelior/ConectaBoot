@@ -30,7 +30,7 @@
     methods: {
       async saveConversation() {
         try {
-          const response = await axios.post('http://localhost:5000/api/conversations', {
+          const response = await axios.post('https://end-point-wx8r.onrender.com/api/conversations', {
             userId: this.conversation.userId,
             messages: this.conversation.messages.split('\n')
           });

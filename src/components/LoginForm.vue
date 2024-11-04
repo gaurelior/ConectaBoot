@@ -25,7 +25,7 @@
     methods: {
       async saveLogin() {
         try {
-          const response = await axios.post('http://localhost:5000/api/logins', {
+          const response = await axios.post('https://end-point-wx8r.onrender.com', {
             userId: this.login.userId
           });
           console.log('Login salvo:', response.data);

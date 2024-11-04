@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <header class="header">
-      <h1>Conecta Boot</h1>
+      <h1>Conecta Bot</h1>
     </header>
     <label class="label">Insira sua pergunta:</label>
     <form @submit.prevent="handleSubmit" class="form">
@@ -35,7 +35,7 @@
     </div>
 
     <footer class="footer">
-      <p>© 2024 Gabrielle Aurelio. Todos os direitos reservados.</p>
+      <p>© 2024, Gabrielle Aurelio. Todos os direitos reservados.</p>
     </footer>
   </div>
 </template>

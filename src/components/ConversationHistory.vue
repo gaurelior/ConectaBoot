@@ -30,7 +30,7 @@
     methods: {
       async fetchConversations() {
         try {
-          const response = await axios.get('http://localhost:5000/api/conversations');
+          const response = await axios.get('https://end-point-wx8r.onrender.com/api/conversations');
           this.conversations = response.data;
         } catch (error) {
           console.error('Erro ao buscar conversas:', error);
